@@ -2,13 +2,13 @@
 <header class="" data-wow-duration="1s">
     <div class="container">
         <div class="row">
-            <div class="col-md-2"><a class="navbar-brand" href="#">Ecommerce</a></div>
+            <div class="col-md-2"><a class="navbar-brand" href="{{ route('front.home')}}">Ecommerce</a></div>
             <div class="col-md-8">
                 <nav class="navbar">
 
                     <div class="menu-area">
                         <ul>
-                            <li><a href="#">ptab3</a></li>
+                            <li><a href="{{ route('front.home')}}">Home</a></li>
                             <li class="dd-btn1"><a href="#!">New In</i></a>
                                 <div class="dropdown-menu1">
                                     <ul>
